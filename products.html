@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dizajni Kartolinave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="login.html">Login</a>
+    <a href="contact.html">Kontakti</a>
+    
+</nav>
+
+<h2 class="page-title">Modelet e Kartolinave</h2>
+
+<div class="models">
+    <div class="model-card" onclick="selectInvitation(this)">
+        <img src="images/we're-getting-married-wedding-invitation-design-template-307b75e6ce9b02eeaaf51f575fe86bc7_screen.jpg" alt="Modeli 1">
+        <h3>Modeli 1</h3>
+        <p>Kartolina per dasme</p>
+        <div class="message-section" style="display:none;">
+            <p>Shkruani tekstin per kartolinen</p>
+            <input type="text" oninput="updateMessage(this)">
+            <p class="preview"></p>
+        </div>
+    </div>
+
+    <div class="model-card" onclick="selectInvitation(this)">
+        <img src="images/rustic-heart-engagement_3.jpg" alt="Modeli 2">
+        <h3>Modeli 2</h3>
+        <p>Kartolina per fejese</p>
+        <div class="message-section" style="display:none;">
+            <p>Shkruani tekstin per kartolinen</p>
+            <input type="text"oninput="updateMessage(this)">
+            <p class="preview"></p>
+        </div>
+    </div>
+
+    <div class="model-card" onclick="selectInvitation(this)">
+        <img src="images/a70fe5444e741e161da852fb7acc601a.jpg" alt="Modeli 3">
+        <h3>Modeli 3</h3>
+        <p>Kartolina per ditelindje</p>
+        <div class="message-section" style="display:none;">
+            <p>Shkruani tekstin per kartolinen</p>
+            <input type="text" oninput="updateMessage(this)">
+            <p class="preview"></p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
