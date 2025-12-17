@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,12 +11,6 @@ body {
 }
 
 nav {
-    background: white;
-    text-align: center;
-    padding: 15px;
-}
-
-nav a {
     margin: 0 12px;
     text-decoration: none;
     color: #d16c8f;
